@@ -17,3 +17,5 @@
     for (auto cur; container) {}
     for (int i = 0; ich; itt) {}
     for (auto cur = con.begin(); cur != con.end(); ++cur) {}
+
+shared ptr, ссылки лучше не использовать - указатели!

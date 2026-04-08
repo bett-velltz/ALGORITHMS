@@ -1,0 +1,1 @@
+https://codeforces.com/group/NvH0Eve9m2/contest/683446/problem/G
