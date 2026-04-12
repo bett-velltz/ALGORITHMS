@@ -29,7 +29,14 @@ add_executable(algorithms main.cpp
         contests/first/twelve/main.cpp
         contests/first/nine/main.cpp
         contests/first/ten/main.cpp
-        contests/first/eleven/main.cpp)
+        contests/first/eleven/main.cpp
+        "seminars/code/chicken and fox/main.cpp"
+        seminars/codeforces/second/one/main.cpp
+        seminars/codeforces/second/six/main.cpp
+        seminars/codeforces/second/two/main.cpp
+        seminars/codeforces/second/three/main.cpp
+        seminars/codeforces/second/four/main.cpp
+        seminars/codeforces/second/five/main.cpp)
 include_directories(lectures)
 include_directories(seminars)
 include_directories(useful)
