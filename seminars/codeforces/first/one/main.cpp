@@ -1,3 +1,6 @@
+//ответ = максимальное число в списке (сумма всех положительных дорожек) +  для каждого числа вычитаем (его порядковый номер количество) раз и прибавляем остальное количество раз относительно количества вершины (та как отрицательный весь - это все s[i]-s[j] в списке, где i меньше j)
+
+
 #include <vector>
 #include <iostream>
 #include <algorithm>
@@ -10,29 +13,20 @@ int main() {
         int n;
         cin >> n;
 
-        if (n < 2) {
-            cout << '0' << '\n';
-            break;
-        }
-        vector<int> d(n);
+        vector<long long> d(n);
 
         for (int j = 0; j < n; ++j) {
             cin >> d[j];
         }
-        sort(d.begin(), d.end(), std::greater<int>());
-
-        vector<int> pref(n);
-        for (int j = 0; j < n; ++j) {
-            if (j == 0) {
-                pref[j] = 0;
-            } else {
-                pref[j] = pref[j-1] + d[j-1];
-            }
+        if (n < 2) {
+            cout << '0' << '\n';
+            continue;
         }
-        int res = 0;
+        sort(d.begin(), d.end());
+
+        long long res = d.back();
         for (int j = 0; j < n; ++j) {
-            res += d[j];
-            res -= pref[j];
+            res += d[j] * (n - 1 - 2 * j);
         }
         cout << res << '\n';
     }
