@@ -45,7 +45,16 @@ add_executable(algorithms main.cpp
         seminars/codeforces/trird/C/main.cpp
         "seminars/codeforces/trird/D/main .cpp"
         seminars/codeforces/trird/E/main.cpp
-        seminars/codeforces/trird/F/main.cpp)
+        seminars/codeforces/trird/F/main.cpp
+        contests/second/B/main.cpp
+        contests/second/C/main.cpp
+        contests/second/D/main.cpp
+        contests/second/E/main.cpp
+        contests/second/F/main.cpp
+        contests/second/G/main.cpp
+        contests/second/H/main.cpp
+        contests/second/I/main.cpp
+        contests/second/J/main.cpp)
 include_directories(lectures)
 include_directories(seminars)
 include_directories(useful)
