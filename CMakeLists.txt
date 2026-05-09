@@ -60,7 +60,18 @@ add_executable(algorithms main.cpp
         seminars/codeforces/fourth/A/main.cpp
         seminars/codeforces/fourth/B/main.cpp
         seminars/codeforces/fourth/C/main.cpp
-        seminars/codeforces/fourth/D/main.cpp)
+        seminars/codeforces/fourth/D/main.cpp
+        contests/third/C/main.cpp
+        contests/third/D/main.cpp
+        "seminars/code/мосты и точки сочленения - Тарьян/мосты.cpp"
+        "seminars/code/мосты и точки сочленения - Тарьян/точки сочленения.cpp"
+        contests/fourth/A/main.cpp
+        contests/fourth/B/main.cpp
+        contests/fourth/C/main.cpp
+        contests/fourth/D/main.cpp
+        contests/fourth/E/main.cpp
+        contests/fourth/F/main.cpp
+        contests/fourth/G/main.cpp)
 include_directories(lectures)
 include_directories(seminars)
 include_directories(useful)
