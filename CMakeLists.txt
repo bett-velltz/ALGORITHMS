@@ -71,7 +71,15 @@ add_executable(algorithms main.cpp
         contests/fourth/D/main.cpp
         contests/fourth/E/main.cpp
         contests/fourth/F/main.cpp
-        contests/fourth/G/main.cpp)
+        contests/fourth/G/main.cpp
+        contests/fifth/I/main.cpp
+        contests/fifth/H/main2.cpp
+        CW/first/A/main.cpp
+        CW/first/B/main.cpp
+        CW/C/main.cpp
+        CW/E/main.cpp
+        CW/F/main.cpp
+        CW/D/main.cpp)
 include_directories(lectures)
 include_directories(seminars)
 include_directories(useful)

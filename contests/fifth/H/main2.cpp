@@ -2,17 +2,14 @@
 #include <vector>
 
 using namespace std;
-long long INF = 1e18;
+//int INF = 1e9;
 
 int main() {
     int N;
     cin >> N;
-    int N_new = N + 1; // добавили фиктивную вершину, чтобы цикл был достижим из всех вершин
-
-    vector<long long> dist(N_new, INF);
+    vector<int> dist(N, 0);
     vector<vector<int>> gr(N, vector<int>(N, 0));
-    vector<int> parent(N_new, -1);
-    dist[N] = 0;
+    vector<int> parent(N, -1);
 
     for (int i = 0; i < N; ++i) {
         for (int j = 0; j < N; ++j) {
@@ -20,12 +17,17 @@ int main() {
         }
     }
 
-    for (int k = 0; k < N_new; k++){
+    if (N == 1 && gr[0][0] < 0) {
+        cout << "YES" << '\n' << 2 << '\n' << "1 1" << '\n';
+        return 0;
+    }
+
+    for (int k = 1; k < N; k++){
         bool is_updated = false;
         for (int i = 0; i < N; ++i) {
-            if (dist[i] == INF) continue;
+            //if (dist[i] == INF) continue;
             for (int j = 0; j < N; ++j) {
-                long long w = gr[i][j];
+                int w = gr[i][j];
                 if (w == 100000) continue;
 
                 if (dist[j] > dist[i] + w) {
@@ -40,7 +42,7 @@ int main() {
 
     int cycle = -1;
     for (int i = 0; i < N; ++i) {
-        if (dist[i] == INF) continue;
+        //if (dist[i] == INF) continue;
         for (int j = 0; j < N; ++j) {
             int w = gr[i][j];
             if (w == 100000) continue;
@@ -60,15 +62,12 @@ int main() {
     for (int i = 0; i < N; i++) {
         cycle = parent[cycle];
     }
-
     vector<int> ans;
     int cur = cycle;
-
-    ans.emplace_back(cur);
-    cur = parent[cur];
-    while (cur != cycle) {
+    while (true) {
         ans.emplace_back(cur);
         cur = parent[cur];
+        if (cur == cycle) break;
     }
 
     cout << ans.size() << '\n';
