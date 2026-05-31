@@ -79,7 +79,32 @@ add_executable(algorithms main.cpp
         CW/C/main.cpp
         CW/E/main.cpp
         CW/F/main.cpp
-        CW/D/main.cpp)
+        CW/D/main.cpp
+        "divisions/Codeforces Round 1098 (Div. 2)/A/main.cpp"
+        "divisions/Codeforces Round 1098 (Div. 2)/B/main.cpp"
+        "divisions/Codeforces Round 1098 (Div. 2)/С/main.cpp"
+        seminars/codeforces/fifth/A/main.cpp
+        seminars/codeforces/fifth/B/main.cpp
+        seminars/codeforces/fifth/C/main.cpp
+        seminars/codeforces/fifth/D/main.cpp
+        seminars/codeforces/fifth/E/main.cpp
+        seminars/codeforces/fifth/F/main.cpp
+        seminars/codeforces/fifth/G/main.cpp
+        seminars/codeforces/fifth/G/main2.cpp
+        seminars/sixth/A/main.cpp
+        seminars/sixth/B/main.cpp
+        seminars/sixth/C/main.cpp
+        seminars/sixth/D/main.cpp
+        seminars/sixth/E/main.cpp
+        seminars/sixth/F/main.cpp
+        seminars/sixth/G/main.cpp
+        "lectures/kurenkov/RSQ & RMQ/A/main.cpp"
+        "lectures/kurenkov/RSQ & RMQ/B/main.cpp"
+        "lectures/kurenkov/RSQ & RMQ/G.cpp"
+        "lectures/kurenkov/RSQ & RMQ/D/main.cpp"
+        "lectures/kurenkov/RSQ & RMQ/L/main.cpp"
+        "lectures/kurenkov/RSQ & RMQ/J/main.cpp"
+)
 include_directories(lectures)
 include_directories(seminars)
 include_directories(useful)

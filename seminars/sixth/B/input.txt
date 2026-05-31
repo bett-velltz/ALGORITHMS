@@ -1,0 +1,21 @@
+5 20
+get 5
+get 3
+join 2 1
+join 4 5
+get 5
+add 5 67
+join 3 1
+get 3
+get 3
+get 2
+add 2 16
+join 2 3
+get 5
+join 2 4
+get 1
+add 2 64
+add 1 10
+add 1 40
+get 2
+add 1 54
