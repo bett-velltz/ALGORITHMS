@@ -104,6 +104,33 @@ add_executable(algorithms main.cpp
         "lectures/kurenkov/RSQ & RMQ/D/main.cpp"
         "lectures/kurenkov/RSQ & RMQ/L/main.cpp"
         "lectures/kurenkov/RSQ & RMQ/J/main.cpp"
+        seminars/codeforces/fourth/G/main.cpp
+        seminars/codeforces/fourth/G/main.cpp
+        "lectures/kurenkov/RSQ & RMQ/Segment Tree.cpp"
+        contests/seven/A/main.cpp
+        contests/seven/B/main.cpp
+        "seminars/codeforces/типа хэшыыыыыы/A/main.cpp"
+        "seminars/codeforces/типа хэшыыыыыы/C/main.cpp"
+        "seminars/codeforces/типа хэшыыыыыы/G/main.cpp"
+        "seminars/codeforces/типа хэшыыыыыы/B/main.cpp"
+        contests/seven/E/maijn.cpp
+        contests/seven/F/main.cpp
+        contests/seven/D/main.cpp
+        contests/seven/D/main2.cpp
+        contests/seven/draft.cpp
+        "divisions/ECR 191/A/main.cpp"
+        "divisions/ECR 191/B/main.cpp"
+        "divisions/ECR 191/C/main.cpp"
+        "divisions/ECR 191/draft.cpp"
+        seminars/codeforces/couples/A/main.cpp
+        seminars/codeforces/couples/B/main.cpp
+        seminars/codeforces/couples/F/main.cpp
+        seminars/codeforces/couples/H/main.cpp
+        seminars/codeforces/couples/C/main.cpp
+        seminars/codeforces/couples/E/main.cpp
+        seminars/codeforces/couples/L/main.cpp
+        seminars/codeforces/couples/G/main.cpp
+        "contests/9 - hash/A/main.cpp"
 )
 include_directories(lectures)
 include_directories(seminars)
