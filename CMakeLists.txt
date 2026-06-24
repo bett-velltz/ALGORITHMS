@@ -132,6 +132,14 @@ add_executable(algorithms main.cpp
         seminars/codeforces/couples/G/main.cpp
         "contests/9 - hash/A/main.cpp"
         "contests/9 - hash/C/main.cpp"
+        "contests/10 - strings/B/main.cpp"
+        "contests/10 - strings/C/main.cpp"
+        "contests/10 - strings/D/main.cpp"
+        "contests/10 - strings/E/main.cpp"
+        "contests/10 - strings/F/main.cpp"
+        "contests/10 - strings/G/main.cpp"
+        "contests/10 - strings/H/main.cpp"
+        seminars/codeforces/couples/M/main.cpp
 )
 include_directories(lectures)
 include_directories(seminars)
